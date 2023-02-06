@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CircleDrawer",
+            "request": "launch",
+            "mainClass": "test.CircleDrawer",
+            "projectName": "Cours-de-JAVA-ESIEE_9c96d176"
+        },
+        {
+            "type": "java",
+            "name": "Launch testrect",
+            "request": "launch",
+            "mainClass": "test.testrect",
+            "projectName": "Cours-de-JAVA-ESIEE_9c96d176"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

@@ -26,20 +26,25 @@ public class rectangle {
         return this.largeur;
     }
 
-    public void Perimetre(){
-        double perimetre=(this.largeur*this.longueur)*2;
-        System.out.print(perimetre);
+    public double Perimetre(){
+        return (this.largeur*this.longueur)*2;
+        
     }
-    public void Surface(){
-        double surface=(this.largeur*this.longueur);
-        System.out.print(surface);
+    public double Surface(){
+       return (this.largeur*this.longueur);
     }
     public void Changelongueur(double L) {
+        if (L>0.0){
         this.longueur=L;
-        System.out.print(this.longueur);
+        }else{
+            System.out.println("Veuillez choisir une valeur positive");
+        }
     }
     public void Changelargeur(double l) {
+        if (l>0.0){
         this.largeur=l;
-        System.out.print(this.largeur);
+        }else{
+            System.out.println("Veuillez choisir une valeur positive");
+        }
     }
 }
