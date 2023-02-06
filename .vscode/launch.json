@@ -1,0 +1,42 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Cours-de-JAVA-ESIEE_9c96d176"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pascal",
+            "request": "launch",
+            "mainClass": "Pascal",
+            "projectName": "Cours-de-JAVA-ESIEE_9c96d176"
+        },
+        {
+            "type": "java",
+            "name": "Launch affichepascal",
+            "request": "launch",
+            "mainClass": "affichepascal",
+            "projectName": "Cours-de-JAVA-ESIEE_9c96d176"
+        },
+        {
+            "type": "java",
+            "name": "Launch testVoiture",
+            "request": "launch",
+            "mainClass": "test.testVoiture",
+            "projectName": "Cours-de-JAVA-ESIEE_9c96d176"
+        }
+    ]
+}
